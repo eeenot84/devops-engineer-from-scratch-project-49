@@ -5,7 +5,10 @@ DESCRIPTION = "Find the greatest common divisor of given numbers."
 
 def gcd(first_number, second_number):
     while second_number != 0:
-        first_number, second_number = second_number, first_number % second_number
+        first_number, second_number = (
+            second_number,
+            first_number % second_number,
+        )
     return first_number
 
 

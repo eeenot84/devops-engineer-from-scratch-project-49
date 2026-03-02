@@ -3,16 +3,6 @@
 
 ### SonarQube
 
-Вставь сюда бейджи из SonarQube: `Information -> Badges` (все, кроме Coverage).
-
-- Quality Gate Status: <!-- paste SonarQube badge markdown here -->
-- Bugs: <!-- paste SonarQube badge markdown here -->
-- Code Smells: <!-- paste SonarQube badge markdown here -->
-- Vulnerabilities: <!-- paste SonarQube badge markdown here -->
-- Security Rating: <!-- paste SonarQube badge markdown here -->
-- Reliability Rating: <!-- paste SonarQube badge markdown here -->
-- Maintainability Rating: <!-- paste SonarQube badge markdown here -->
-- Duplicated Lines (%): <!-- paste SonarQube badge markdown here -->
 
 ### asciinema
 
@@ -42,14 +32,6 @@
 
 #### brain-prime
 
-Команды для записи (пример):
-
-1) `uv build && uv tool install --force dist/*.whl`
-2) `brain-prime` (покажи победу и поражение)
-3) `exit`
-4) `asciinema upload <file>.cast`
-
-Вставь сюда markdown из asciinema (Embed as image link):
 
 [![asciicast](https://asciinema.org/a/hWhZ0OgOtfuT2B1x.svg)](https://asciinema.org/a/hWhZ0OgOtfuT2B1x)
 [![asciicast](https://asciinema.org/a/lnUAvdonLsbM4R9U.svg)](https://asciinema.org/a/lnUAvdonLsbM4R9U)
