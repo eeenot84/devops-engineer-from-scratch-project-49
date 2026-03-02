@@ -1,7 +1,10 @@
 [project]
 name = "hexlet-code"
 version = "0.1.0"
-description = "Add your description here"
+description = "Brain Games: a set of console math games"
+authors = [
+    { name = "Rinat Mubinov" },
+]
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
@@ -27,10 +30,3 @@ brain-calc = "brain_games.scripts.brain_calc:main"
 brain-gcd = "brain_games.scripts.brain_gcd:main"
 brain-progression = "brain_games.scripts.brain_progression:main"
 brain-prime = "brain_games.scripts.brain_prime:main"
-
-[tool.ruff]
-line-length = 79
-target-version = "py310"
-
-[tool.ruff.lint]
-select = ["E", "F", "I"]

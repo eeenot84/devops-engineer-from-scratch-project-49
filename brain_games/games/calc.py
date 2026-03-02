@@ -4,6 +4,9 @@ DESCRIPTION = "What is the result of the expression?"
 
 OPERATORS = ("+", "-", "*")
 
+MIN_NUMBER = 1
+MAX_NUMBER = 25
+
 
 def calculate(first_number, operator, second_number):
     match operator:
@@ -18,8 +21,8 @@ def calculate(first_number, operator, second_number):
 
 
 def get_round_data():
-    first_number = random.randint(1, 25)
-    second_number = random.randint(1, 25)
+    first_number = random.randint(MIN_NUMBER, MAX_NUMBER)
+    second_number = random.randint(MIN_NUMBER, MAX_NUMBER)
     operator = random.choice(OPERATORS)
     question = f"{first_number} {operator} {second_number}"
     correct_answer = str(calculate(first_number, operator, second_number))

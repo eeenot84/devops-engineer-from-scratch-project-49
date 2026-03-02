@@ -1,8 +1,53 @@
-### Hexlet tests and linter status:
+### Brain Games
+
 [![Actions Status](https://github.com/eeenot84/devops-engineer-from-scratch-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/eeenot84/devops-engineer-from-scratch-project-49/actions)
 
-### SonarQube
+SonarQube badges (вставить из `Information -> Badges`, кроме Coverage):
 
+- Quality Gate Status:
+- Bugs:
+- Code Smells:
+- Vulnerabilities:
+- Security Rating:
+- Reliability Rating:
+- Maintainability Rating:
+- Duplicated Lines (%):
+
+### Описание
+
+Набор консольных игр «Brain Games».
+
+### Требования
+
+- Python 3.10+
+- `uv`
+
+### Установка
+
+Соберите пакет и установите его в систему:
+
+```bash
+uv build
+uv tool install --force dist/*.whl
+```
+
+### Запуск игр
+
+После установки через `uv tool install` команды запускаются **без** `uv run`:
+
+- `brain-even`
+- `brain-calc`
+- `brain-gcd`
+- `brain-progression`
+- `brain-prime`
+
+### Разработка
+
+Проверка линтером:
+
+```bash
+make lint
+```
 
 ### asciinema
 
