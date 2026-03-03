@@ -2,17 +2,6 @@
 
 [![Actions Status](https://github.com/eeenot84/devops-engineer-from-scratch-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/eeenot84/devops-engineer-from-scratch-project-49/actions)
 
-SonarQube badges (вставить из `Information -> Badges`, кроме Coverage):
-
-- Quality Gate Status:
-- Bugs:
-- Code Smells:
-- Vulnerabilities:
-- Security Rating:
-- Reliability Rating:
-- Maintainability Rating:
-- Duplicated Lines (%):
-
 ### Описание
 
 Набор консольных игр «Brain Games».
