@@ -3,5 +3,5 @@ from brain_games.games import prime
 
 
 def main():
-    run_game(prime.DESCRIPTION, prime.get_round_data)
+    run_game(prime)
 

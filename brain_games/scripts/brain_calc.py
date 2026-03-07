@@ -3,5 +3,5 @@ from brain_games.games import calc
 
 
 def main():
-    run_game(calc.DESCRIPTION, calc.get_round_data)
+    run_game(calc)
 

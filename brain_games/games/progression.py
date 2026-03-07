@@ -13,7 +13,8 @@ MAX_STEP = 10
 
 
 def make_progression(start, step, length):
-    return [start + index * step for index in range(length)]
+    stop = start + step * length
+    return list(range(start, stop, step))
 
 
 def get_round_data():

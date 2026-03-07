@@ -3,5 +3,5 @@ from brain_games.games import even
 
 
 def main():
-    run_game(even.DESCRIPTION, even.get_round_data)
+    run_game(even)
 
