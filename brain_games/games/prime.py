@@ -14,11 +14,10 @@ def is_prime(number):
     if number % 2 == 0:
         return False
 
-    divisor = 3
-    while divisor * divisor <= number:
+    limit = int(number**0.5)
+    for divisor in range(3, limit + 1, 2):
         if number % divisor == 0:
             return False
-        divisor += 2
     return True
 
 

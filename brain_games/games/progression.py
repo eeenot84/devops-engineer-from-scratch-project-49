@@ -12,16 +12,12 @@ MIN_STEP = 1
 MAX_STEP = 10
 
 
-def make_progression(start, step, length):
-    stop = start + step * length
-    return list(range(start, stop, step))
-
-
 def get_round_data():
     length = random.randint(MIN_LENGTH, MAX_LENGTH)
     start = random.randint(MIN_START, MAX_START)
     step = random.randint(MIN_STEP, MAX_STEP)
-    progression = make_progression(start, step, length)
+    stop = start + step * length
+    progression = list(range(start, stop, step))
 
     hidden_index = random.randrange(length)
     correct_answer = str(progression[hidden_index])
